@@ -1,0 +1,101 @@
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 20px;
+}
+.header{
+	width: 100%;
+	height: 300px;
+	margin: 100px 0 60px;
+	background-color: #7D181F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+}
+.author{
+	margin-top: 40px;
+	text-align: center;
+}
+.part{
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+.part{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 600px;
+	background-color: gray;
+}
+.animation-box{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin: 0 auto;
+	transition: .7s ease;
+}
+.animation-unit-one{
+	width: 75px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: red;
+}
+.animation-unit-two{
+	width: 25px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: blue;
+}
+.animation-unit-one-step{
+	width: 25px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: orange;
+}
+.animation-unit-two-step{
+	width: 75px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: brown;
+}
+.content{
+	opacity: 0;
+	transition: 2s ease;
+}
+.content{
+	opacity: 0;
+}
+.img{
+	max-width: 222px;
+	max-height: 300px;
+
+	margin: auto;
+}
+#first-img{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	max-width: 222px;
+	max-height: 300px;
+	background-image: url(morgan.jpg) no-repeat;
+}
